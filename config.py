@@ -1,3 +1,4 @@
+import os
 class Config:
     SECRET_KEY = 'test1234'
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root@localhost/dosen_eval'
